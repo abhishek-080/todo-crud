@@ -37,3 +37,20 @@
   }
 }
 
+.mt-n4{
+  margin-top: -2em ;
+}
+
+@media only screen and (max-width: 700px) {
+  .sm-mt-4{
+    margin-top: 0.5em !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .mt-l4{
+    margin-top: 0.7em !important;
+  }
+}
+
+

@@ -41,7 +41,7 @@ export default function Todo() {
         <span className="text-2xl">Todo Lists</span>
         <form onSubmit={handleSubmit} className="py-5 ">
           <input
-            className="border fs-4 border-solid rounded text-dark text-sm p-1 mr-2 h-11 text-xl"
+            className="border fs-4 border-solid rounded text-dark p-1 mr-2 h-11 text-xl"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Enter the todo"
